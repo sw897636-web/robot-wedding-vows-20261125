@@ -9,7 +9,7 @@ import { dirname, join } from "node:path";
 // v2 final: tightened ending — "yours, every single time" lands the
 // joke in the last words and uses the full 140-160 character budget.
 const VOW =
-  "I vow to share my last 3% battery with you on our wedding night, and if the charger ever asks whose turn it is, I will lie and say yours, every single time.";
+  "I vow to love you through every update, even the one that moved all your buttons, and to always answer \"I do,\" never \"Sorry, I didn't catch that.\"";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
